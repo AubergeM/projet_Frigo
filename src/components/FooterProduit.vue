@@ -47,6 +47,7 @@ a{
   background-color : #114c93;
   width: 1250px;
   padding: 20px;
+  border-radius: 10px;
 }
 
 </style>
