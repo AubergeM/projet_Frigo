@@ -233,7 +233,7 @@ h3 {
   display: grid;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 20px;
 }
 
