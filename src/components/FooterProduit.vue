@@ -43,7 +43,7 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #114c93;
-  width: 570px;
+  width: 1250px;
   padding: 20px;
   border-radius: 10px;
 }
