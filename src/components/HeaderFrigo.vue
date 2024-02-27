@@ -4,7 +4,7 @@
     Mon Frigo
   </div>
   <div class="image">
-    <img src="/public/img/frigo3.jpg">
+    <img src="/img/frigo3.jpg">
   </div>
   <div class="accroche">
         Remplissez à votre guise ce frigo !
