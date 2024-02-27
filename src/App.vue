@@ -1,53 +1,47 @@
 <script setup>
-import HeaderFrigo from './components/HeaderFrigo.vue'
+import HeaderFrigo from "./components/HeaderFrigo.vue";
 import FonctionProduit from "./components/FonctionProduit.vue";
-import FooterProduit from './components/FooterProduit.vue';
-
+import FooterProduit from "./components/FooterProduit.vue";
 </script>
 
 <template>
-   <div class="background">
-     <HeaderFrigo />
+  <div class="background">
+    <HeaderFrigo />
     <div class="liste">
       <FonctionProduit />
     </div>
     <div class="footer">
       <FooterProduit />
-   </div>
-   </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-
- .background {
+.background {
   display: flex;
-   flex-direction: column;
-   align-items: center;
-   background: url("/public/img/frigovide.jpg");
-   background-size: cover;
-   background-position: center;
-   
-   border-radius: 10px;
-   margin-left: 0px;
- }
+  flex-direction: column;
+  align-items: center;
+  background: url("/public/img/frigovide.jpg");
+  background-size: cover;
+  background-position: center;
 
+  border-radius: 10px;
+  margin-left: 0px;
+}
 
-
- .liste{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-family:Arial, sans-serif;
-   font-size: 20px;
-   color: #114c93;
-   font-weight: bold;
- }
-
- .footer{
+.liste {
   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #114c93;
+  font-weight: bold;
+}
 
-
- </style>
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
