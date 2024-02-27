@@ -21,7 +21,7 @@ import FooterProduit from "./components/FooterProduit.vue";
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("/public/img/frigovide.jpg");
+  background: url("/img/frigovide.jpg");
   background-size: cover;
   background-position: center;
 
