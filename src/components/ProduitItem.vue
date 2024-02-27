@@ -16,7 +16,7 @@ const emit = defineEmits(["deleteP", "addQ", "removeQ"]);
           <button class="boutton" @click="$emit('removeQ', produit)">-</button>
           </div>
           <div class="supprimer">
-            <button class="boutton-sup" @click="$emit('deleteP', produit.id)"><img src="/public/img/poubelle1.jpg" alt="icône poubelle"></button>
+            <button class="boutton-sup" @click="$emit('deleteP', produit.id)"><img src="/img/poubelle1.jpg" alt="icône poubelle"></button>
           </div>
         </div>   
       </div>
@@ -67,7 +67,7 @@ ul {
 }
 
 .produit{
-  background-image: url("/public/img/poubelle1.png");
+  background-image: url("/img/poubelle1.png");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
